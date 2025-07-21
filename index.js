@@ -68,7 +68,7 @@ async function updateGist(stats) {
             ['🔀', `Total PRs`, humanize(stats.totalPRs)],
             ['🚩', `Total Issues`, humanize(stats.totalIssues)],
             ['📦', `Contributed to`, humanize(stats.contributedTo)],
-            ['🧪', `Testing Gist!!!!`],
+            // ['🧪', `Testing Gist!!!!`],
         ]
             .map((content) => {
                 let line = `${content[1]}:${content[2]}`;
